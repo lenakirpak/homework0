@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url('./Fonts/PTSans-Italic.ttf');
+}
+
+h1 {
+    font-size: 200%;
+    font-weight:100;
+    letter-spacing: 5px;
+    line-height: normal;
+    color: crimson;
+}
+
+body {  
+    background-color: blanchedalmond;
+    margin: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+
+}
+
+body :first-child{
+    margin: 5px;
+}
+
+body> p {
+    font-family: 'PTSans-Bold', serif;
+    font-size: 200%;
+    margin: 5px;
+}
+
+body> ul {
+    font-family: 'PTSans-Bold', serif;
+    font-size: 100%;
+    margin: 5px;
+}
+
+body> ol {
+    font-family: 'PTSans-Bold', serif;
+    font-size: 100%;
+    margin: 5px;
+}
+
+body> div {
+    font-family: 'PTSans-Bold', serif;
+    font-size: 100%;
+    margin: 5px;
+}
+
+img {
+    box-shadow: 10px 10px 5px grey;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+
+h2{
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: rgb(218, 85, 184);
+}
+
+h3{
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: normal;
+    color: rgb(175, 127, 54);
+}
+
+h4{
+    font-size: 170%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height:5%;
+    color: rgb(23, 127, 153);
+}
+p{
+    text-indent: 25px;
+
+}
+
+select{
+    color: indigo;
+    width: 60px;
+    height: 20px;
+    padding: 2px;
+    border: rgb(96, 76, 211);
+    box-shadow: 5px 5px 3px grey;
+    background-color: hotpink;
+    margin: 10px;
+}
+
+ul.books {
+    list-style-image: url(./assets/book2.png);
+}
+
+ul li a{
+    color: red;
+}
+
+ol li a{
+    color: blue;
+}
+
+::placeholder{
+    padding: 30px;
+    height: 30px;
+    width: 100px;
+}
+input:hover{
+    box-shadow: 5px 5px 2px grey;
+}
+input:focus{
+    border: 2px solid rgb(202, 16, 16)
+}
+input{
+    border-radius: 8px;
+}
+
+a{
+    color: royalblue;
+    text-decoration: none;
+}
+a:hover{
+    color: tomato;
+}
+
+th{
+    text-align: center;
+    background-color: rgb(138, 202, 202);
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+    color: rgb(133, 75, 25);
+    background-color: rgb(103, 223, 230);
+}
+th, td {
+    padding: 10px 15px;
+}
+
+button {
+    background: linear-gradient(to top right, rgb(238, 196, 203), rgb(151, 230, 141));
+    text-transform: capitalize;
+    padding: 3px 5px 3px 5px;
+    border-radius: 7px;
+    box-shadow: 5px 2px 2px grey;
+}
+button:hover{
+    opacity: 0.3;
+}
