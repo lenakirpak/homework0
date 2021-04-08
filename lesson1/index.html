@@ -7,62 +7,78 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header"></header>
-    <section class="smoothies"></section>
-    <section class="about"></section>
-    <section class="products"></section>
-    <section class="story"></section>
-    <section class="testimonials"></section>
-    <section class="blog"></section>
-    <section class="instagram"></section>
-    <footer class="footer"></footer>
-
     <header class="header">
-        <div class="header top">
-            <nav>
-                <ul>
-                    <li><a href="">home</a></li>
-                    <li><a href="">shop</a></li>
-                    <li><a href="">story</a></li>
-                    <li><a href="">about</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">testimonials</a></li>
+        <div class="header__top">
+            <nav class="header__menu menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="">home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">shop</a>
+                    </li>
+                    <li class-="menu__item">
+                        <a class="menu__link" href="">story</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">about</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">blog</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="">testimonials</a>
+                    </li>
                 </ul>
             </nav>
             <h1>Smoothie Products</h1>
-            <a class="logo" href="">
-            <img src="" alt="">
-            </a>
-            <div class="personal">
-                <ul>
-                    <li>
-                        <a href=""><img src=""></a>
+            <div class="header__logo logo">
+                <a class="logo__link" href="#">
+                    <img class="logo__img" src="./assets/Logo.png" alt="Organic">
+                </a>
+            </div>
+            <div class="header__personal personal">
+                <ul class="personal__list">
+                    <li class="personal__list-item">
+                        <a class="personal__link" href="">
+                            <img class="personal__icon-search" src="./assets/Search-icon.png" alt="Search-icon">
+                        </a>
                     </li>
-                    <li>
-                        <a href=""><img src=""></a>
-                    </li>
-                    <li>
-                        <a href=""><img src=""></a>
-                        <span>3</span>
+                    <li class="personal__list-item">
+                        <a class="personal__link" href="">
+                            <img class="personal__icon-user" src="./assets/User-icon.png" alt="user-icon">
+                        </a>
+                    </li >
+                    <li class="personal__list-item">
+                        <a class="personal__link-cart" href="">
+                            <img class="personal__cart-icon" src="./assets/Cart-icon.png" alt="cart-icon">
+                            <span class="personal__cart-count">3</span>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <div class="social">
-                <ul>
-                    <li>
-                        <a href=""><img src=""></a>
+            <div class="header__social social">
+                <ul class="social__list">
+                    <li class="social__list-item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="./assets/Facebook-icon.png" alt="facebook-item">
+                        </a>
                     </li>
-                    <li>
-                        <a href=""><img src=""></a>
+                    <li class="social__list-item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="./assets/Pinterest-icon.png" alt="pinteresc-icon">
+                        </a>
                     </li>
-                    <li>
-                        <a href=""><img src=""></a>
+                    <li class="social__list-item">
+                        <a class="social__link" href="">
+                            <img class="social__icon" src="./assets/Instagram-icon.png" alt="Instagram-icon">
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="header content">
-        <a href="#">Shop Now</a>
+        <button>Shop Now</button>
         </div>
     </header>
     <section class="smoothies">
@@ -148,6 +164,11 @@
         <p>Jun 16, 2020</p>
         <p>If the fruit ingredients and the green vegetable ingredients are both juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green juice or anything... <a href="">Read More</a> </p>
     </section>
+    <section class="instagram">
+        <a href=""></a>
+
+    </section>
+
     
 </body>
 </html>
