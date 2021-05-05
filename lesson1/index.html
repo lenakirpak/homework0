@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/nolmalize.css">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
 
@@ -79,13 +81,13 @@
             </div>
         </div>
         <div class="header__content">
-            <button class="header_btn btn btn--green-bg">Shop Now
+            <button class="header__btn btn btn--green-bg">Shop Now
                 <img class="btn__arrow-yellow" src="./assets/Arrow.png" alt="arrow">
             </button>
         </div>
     </header>
     <section class="smoothies">
-        <h2 class="smoothies__title title">What are these smoothies?</h2>
+        <h2 class="smoothies__title title title--orange">What are these smoothies?</h2>
         <p class="smoothies__text text">A smoothie is a drink made from pureed raw fruit, vegetables, and sometimes
             dairy products (milk, yogurt, ice-cream or cottage cheese), typically using a blender. Smoothies may be made
             using other ingredients, such as water, crushed ice, fruit juice, sweeteners (e.g. honey, sugar, stevia, or
@@ -94,11 +96,11 @@
         <div class="smoothies__inner">
             <div class="smoothies__features">
                 <img class="smoothies__icon" src="./assets/Icon.png" alt="plant based">
-                <h4 class="smoothies__icon-title">Plant Based</h4>
+                <h4 class="smoothies__icon-text">Plant Based</h4>
             </div>
             <div class="smoothies__features">
                 <img class="smoothies__icon" src="./assets/Icon-vegan.png" alt="vegan">
-                <h4 class="smoothies__icon-title">Vegan</h4>
+                <h4 class="smoothies__icon-text">Vegan</h4>
             </div>
             <div class="smoothies__features">
                 <img class="smoothies__icon" src="./assets/Icon-paleo.png" alt="paleo">
@@ -127,7 +129,7 @@
     </section>
     <section class="about">
         <div class="about__inner">
-            <h2 class="about__title title">What makes Smoothie an <span class="about__title--green">awesome
+            <h2 class="about__title title title--white">What makes Smoothie an <span class="title--green">awesome
                     drink?</span></h2>
             <ul class="about__list">
                 <li class="about__list-item"><span class="about__text--strong">Crunchy Puffs</span>Texture</li>
@@ -148,7 +150,7 @@
         </div>
     </section>
     <section class="products">
-        <div class="products__items">
+        <div class="products__item">
             <img class="products__item-img" src="./assets/Img-dark chocolate.png" alt="dark chocolate">
             <h5 class="products__item-title">Dark Chocolate Smoothie</h5>
             <span class="products__item-subtitle">100 ml</span>
@@ -182,14 +184,13 @@
         </div>
     </section>
     <section class="story">
-        <div class="story__description">
-            <h2 class="story__description title">Our Story</h2>
-            <p class="story__description text">As products typically using raw fruits or vegetables, smoothies include
-                dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit juice, often with a consistency
-                similar to a milkshake. </p>
-            <button class="story__btn btn btn--green-bg">Who we are
-                <img class="btn__arrow-yellow" src="./assets/Arrow.png" alt="arrow">
-            </button>
+        <h2 class="story__title title title--orange">Our Story</h2>
+        <p class="story__text text">As products typically using raw fruits or vegetables, smoothies include
+            dietary fiber (e.g. pulp, skin, and seeds) and so are thicker than fruit juice, often with a consistency
+            similar to a milkshake. </p>
+        <button class="story__btn btn btn--green-bg">Who we are
+            <img class="btn__arrow-yellow" src="./assets/Arrow.png" alt="arrow">
+        </button>
         </div>
         <div class="story__image-wrap">
             <img class="story__img" src="./assets/Img-story.png" alt="summer">
@@ -197,7 +198,7 @@
         </div>
     </section>
     <section class="testimonials">
-        <h2 class="title testimonials__title">Why clients <span class="testimonials__title--uppercase">LOVE</span> us?
+        <h2 class="title testimonials__title title--orange">Why clients <span class="title--uppercase">LOVE</span> us?
         </h2>
         <div class="testimonials__inner">
             <blockquote class="text testimonials__inner">
@@ -213,11 +214,11 @@
         </div>
     </section>
     <section class="blog">
-        <h2 class="blog__title title">Our Blog</h2>
+        <h2 class="blog__title title title--orange">Our Blog</h2>
         <div class="blog__inner">
             <img class="blog__img" src="./assets/Img-our blog.png" alt="smoothies">
             <article class="blog__description">
-                <h3 class="blog__description title">ASAFOETIDA - THE NEXT TURMERIC?</h3>
+                <h3 class="blog__description-title">ASAFOETIDA - THE NEXT TURMERIC?</h3>
                 <time class="blog__description time">Jun 16, 2020</time>
                 <p class="blog__description text">If the fruit ingredients and the green vegetable ingredients are both
                     juiced ahead of time, the mixed juice doesn't even have to be blended like a smoothie, i.e. a green
@@ -227,8 +228,8 @@
     </section>
     <section class="instagram">
         <div class="instagram__logo">
-            <img class="instagram__logo img" src="./assets/Instagram-icon.png" alt="instagram">
-            <a class="instagram__logo link" href="">ashasuperfoods</a>
+            <img class="instagram__logo-img" src="./assets/Instagram-icon.png" alt="instagram">
+            <a class="instagram__logo-link" href="">ashasuperfoods</a>
         </div>
         <div class="instagram__items">
             <div class="instagram__image">
@@ -262,7 +263,7 @@
             </div>
             <div class="information">
                 <h4 class="information__title">Information</h4>
-                <ul class="Information__list">
+                <ul class="information__list">
                     <li class="information__list-item">
                         <a class="information__list-link" href="">Search</a>
                     </li>
@@ -294,7 +295,7 @@
                     <h4 class="subscription__title">Don't miss out!</h4>
                     <input class="subscription__input" type="mail" placeholder="Subscribe to our newsletter">
                 </div>
-                <div class="footer__social social">
+                <div class="footer__social">
                     <h5 class="footer__social-title">FOLLOW US</h5>
                     <ul class="social__list">
                         <li class="social__list-item">
